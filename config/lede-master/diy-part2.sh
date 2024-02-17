@@ -50,4 +50,3 @@ echo "DISTRIB_SOURCECODE='lede'" >>package/base-files/files/etc/openwrt_release
 # git apply ../config/patches/{0001*,0002*}.patch --directory=feeds/luci
 #
 # ------------------------------- Other ends -------------------------------
-svn co https://github.com/xiaorouji/openwrt-passwall/tree/1509793bd58a3e4f11810405aab1bfa5d958e3bf/luci-app-passwall package/luci-app-passwall
